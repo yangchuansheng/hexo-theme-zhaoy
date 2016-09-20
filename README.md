@@ -23,9 +23,11 @@ git clone https://github.com/zhaoy875/hexo-theme-zhaoy.git
 
 	theme: zhaoy
 
-然后hexo clean
-再hexo g
-hexo s 打开浏览器 输入 本地localhost:4000 查看效果吧
+然后
+> hexo clean 清理
+> hexo g  生成静态网站
+> hexo s 打开本地server  浏览器 输入localhost:4000 查看效果吧
+> hexo d 推送更新到远程仓库 ，更新博客  
 
 # NexT
 
