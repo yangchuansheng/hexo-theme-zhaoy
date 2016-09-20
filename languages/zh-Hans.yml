@@ -1,0 +1,79 @@
+
+title:
+  archive: 归档
+  category: 分类
+  tag: 标签
+
+author: 博主
+
+# 注释这是首要菜单栏，将menu视为一个对象，要加导航子菜单在主题配置里面加一个属性，再给链接地址
+# _config.yml里面menu对象下面的才是子对象，这里只是子菜单显示的文字，是子对象的一个属性（标题值）
+menu:
+  home: 首页
+  archives: 归档
+  categories: 按分类找
+  tags: 按标签找
+  about: 我是谁？
+  search: 搜一下
+  commonweal: 公益404
+  # 新增自定义 user_set子对象
+  user_set: 自定义
+
+
+sidebar:
+  overview: 站点概览
+  toc: 文章目录
+
+post:
+  sticky: 置顶
+  posted: 发表于
+  in: 分类于
+  visitors: 阅读次数
+  read_more: 阅读全文
+  untitled: 未命名
+  toc_empty: 此文章未包含目录
+
+page:
+  totally: 共有
+  tags: 标签
+
+footer:
+  powered: " %s 驱动"
+  # theme: Theme by zhaoy based on
+
+
+counter:
+  tag_cloud:
+    zero: 暂无标签
+    one: 目前共计 1 个标签
+    other: "目前共计 %d 个标签"
+
+  categories:
+    zero: 暂无分类
+    one: 目前共计 1 个分类
+    other: "目前共计 %d 个分类"
+
+  archive_posts:
+    zero: 暂无日志。
+    one: 目前共计 1 篇日志。
+    other: "目前共计 %d 篇日志。"
+
+state:
+  posts: 日志
+  pages: 页面
+  tags: 标签
+  categories: 分类
+
+cheers:
+  um: 嗯..
+  ok: OK
+  nice: 好
+  good: 很好
+  great: 非常好
+  excellent: 太棒了
+
+keep_on: 继续努力。
+
+symbol:
+  comma: '， '
+  period: '。 '
